@@ -1,0 +1,15 @@
+.button{
+    height:6vh;
+    background-color:blueviolet;
+    border:none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color:rgb(224, 215, 215);
+    width:23vw;
+    margin:0.2rem;
+}
+@media(max-width:600px){
+.button{ 
+  width:70vw;
+}
+}

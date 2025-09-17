@@ -1,0 +1,59 @@
+.mainDiv{
+  min-height:94.9vh;
+  width:26vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+.hero{
+    align-self: flex-end;
+    padding:1rem;
+}
+.cadiv{
+  min-height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.cadiv h1{
+  padding: 1rem;
+  font-size:2rem;
+}
+.sign{
+  min-height: auto;
+  padding: 1rem;
+  
+}
+.pro{
+  padding: 1rem;
+  width: 100%;
+}
+.prodiv{
+  height:3rem;
+  width: 100%;
+  font-size: 0.7rem;
+  border-bottom: 1px solid grey;
+}
+.imageDiv{
+  width: 17vw;
+  display: flex;
+}
+.left{
+width: 40%;
+height:5rem;
+border-radius: 50%;
+background-image: url('/task.png');
+background-repeat: no-repeat;
+background-size: contain;
+margin:0.5rem;
+}
+
+
+@media(max-width:600px){
+.mainDiv{ 
+  width:80vw;
+}
+.imageDiv{
+  width: 50vw;
+  display: flex;
+}
+}
