@@ -55,5 +55,9 @@ margin:0.5rem;
 .imageDiv{
   width: 50vw;
   display: flex;
+  
+}
+.left{
+height: 15rem;
 }
 }
